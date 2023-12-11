@@ -8,7 +8,6 @@ import "./Navbar.css";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-  const handleMenuClick = () => click && setClick(!click);
 
   const [color, setColor] = useState(false);
   const changeColor = () => {
@@ -26,10 +25,7 @@ const Navbar = () => {
       <Link to="/">
         <h1>Ella Zolotarenko</h1>
       </Link>
-      <ul
-        className={click ? "nav-menu active" : "nav-menu"}
-        onClick={handleMenuClick}
-      >
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <Link to="/">Home</Link>
         </li>
