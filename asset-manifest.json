@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ella_zolotarenko/static/css/main.b64c0279.css",
-    "main.js": "/ella_zolotarenko/static/js/main.2dbd683c.js",
+    "main.js": "/ella_zolotarenko/static/js/main.d17bdbfd.js",
     "static/media/08.jpg": "/ella_zolotarenko/static/media/08.5abdf040634b86a2a476.jpg",
     "static/media/06.jpg": "/ella_zolotarenko/static/media/06.db617aad4add99a892bc.jpg",
     "static/media/02.jpg": "/ella_zolotarenko/static/media/02.eb046f8445269c2ca7cf.jpg",
@@ -15,10 +15,10 @@
     "static/media/contact01.jpg": "/ella_zolotarenko/static/media/contact01.b8a86e3fed2a85751c9a.jpg",
     "index.html": "/ella_zolotarenko/index.html",
     "main.b64c0279.css.map": "/ella_zolotarenko/static/css/main.b64c0279.css.map",
-    "main.2dbd683c.js.map": "/ella_zolotarenko/static/js/main.2dbd683c.js.map"
+    "main.d17bdbfd.js.map": "/ella_zolotarenko/static/js/main.d17bdbfd.js.map"
   },
   "entrypoints": [
     "static/css/main.b64c0279.css",
-    "static/js/main.2dbd683c.js"
+    "static/js/main.d17bdbfd.js"
   ]
 }
