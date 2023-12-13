@@ -1,15 +1,13 @@
 import React from "react";
 
-import Carousel from "react-gallery-carousel";
-import "react-gallery-carousel/dist/index.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 import images from "./images";
 
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
 import Background from "../../components/Background";
-
-import styles from "./Gallery.module.css";
 
 const Gallery = () => {
   return (
@@ -19,9 +17,14 @@ const Gallery = () => {
         heading="Gallery"
         text="Gallery of my paintings in the style of Petrikov painting"
       />
-      <div className={styles.carousel}>
-        <Carousel images={images} style={{ height: 800, width: 1200 }} />
-      </div>
+      <Carousel>
+        {images.map((img) => (
+          <div>
+            <img src={img.src} alt={img.alt} />
+            <p className="legend">{img.title}</p>
+          </div>
+        ))}
+      </Carousel>
       <Footer />
     </>
   );
