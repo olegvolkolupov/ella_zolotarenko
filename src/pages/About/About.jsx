@@ -6,8 +6,6 @@ import Footer from "../../components/Footer";
 import Background from "../../components/Background";
 import AboutContent from "./AboutContent/AboutContent";
 
-// import styles from "./About.module.css";
-
 const About = () => {
   return (
     <>
